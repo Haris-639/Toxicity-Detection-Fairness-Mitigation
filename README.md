@@ -280,50 +280,7 @@ pipe.set_uncertainty_band(lower=0.3, upper=0.7)
 
 4. **Human-in-the-Loop Works**: 2.5% of decisions routed to humans with 56% toxic rate in review queue suggests good uncertainty calibration.
 
----
 
-## Limitations & Future Work
-
-### Limitations
-- **Single Dataset**: Evaluation on Jigsaw Unintended Bias only; generalization to other platforms unknown
-- **Static Cohorts**: Only tests two demographic groups (high-black, reference)
-- **Regex Patterns**: Layer 1 patterns hand-crafted; may miss novel phrasings
-- **Calibration Data**: Assumes 5,000 calibration examples available; cold-start scenarios not addressed
-
-### Future Improvements
-1. Multi-group fairness (more demographic axes)
-2. Adaptive regex patterns learned from user feedback
-3. Continuous calibration re-fitting
-4. Cost-sensitive classification (tailor false-positive/false-negative trade-off)
-5. Robustness certification against bounded perturbations
-
----
-
-## References
-
-- **Fairness in ML**: Bolukbasi et al. (2016) on word embeddings; Hardt et al. (2016) on equalized odds
-- **Bias in NLP**: Buolamwini & Buolamwini (2018); Hovy & Prabhumoye (2021)
-- **Robustness**: Carlini & Wagner (2019); Papernot & McDaniel (2016)
-- **Calibration**: Guo et al. (2017) on modern deep learning calibration
-
----
-
-## License & Citation
-
-This project is released as educational material for the FAST-NUCES Responsible & Explainable AI course.
-
-If you use this code or results, please cite:
-```bibtex
-@assignment{assignment2_rai_2026,
-  title={Responsible \& Explainable AI: Toxicity Detection \& Fairness Mitigation},
-  institution={FAST-NUCES},
-  year={2026}
-}
-```
-
----
-
-## Contact & Questions
 
 For issues, questions, or improvements, please open an issue on GitHub or contact the course instructor.
 
