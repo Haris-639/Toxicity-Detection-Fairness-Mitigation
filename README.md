@@ -279,12 +279,3 @@ pipe.set_uncertainty_band(lower=0.3, upper=0.7)
 3. **Calibration Matters**: Raw model confidence scores do not map to true accuracy; isotonic calibration is essential for reliable decision thresholds.
 
 4. **Human-in-the-Loop Works**: 2.5% of decisions routed to humans with 56% toxic rate in review queue suggests good uncertainty calibration.
-
-
-
-For issues, questions, or improvements, please open an issue on GitHub or contact the course instructor.
-
----
-
-**Last Updated**: April 2026  
-**Status**: Complete & Production-Ready
